@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{text-decoration: none;}
+li{list-style: none;}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    color: #264653;
+    font-size: 1.2em;
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+nav ul li{
+    
+    margin-top: 20px;
+}
+
+nav svg{
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width:630px){
+    nav{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+
+main #section1{
+    background-image: url("img/image-hero-coffeepress.1777efd6.jpg");
+
+    width: 70%;
+    margin: 50px auto;
+    display: block;
+    height: 65vh;
+    background-size: cover;
+    border-radius: 10px;
+}
+#section1 .description{
+    margin-left: 40px;
+    padding-top: 100px;
+    
+}
+#section1 .description h1,p{
+    padding-bottom: 20px;
+    color: white;
+}
+
+#section1 .description button{
+    width: 20%;
+    height: 40px;
+    color: white;
+    background-color: royalblue;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+#section1 .description button:hover{
+    background-color: #E76F51;
+    transition: all 0.4s ease-in;
+}
+#section1 .description p{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-seri
+}
+#section1 .description h1{
+    font-size: 2.6em;
+}
+
+
+@media screen and (max-width:649px) {
+    #section1 .description h1,p{
+        padding-bottom: 5px;
+        
+    }
+    #section1 .description h1{
+        margin-top: -30px;
+    }
+    #section1 .description button{
+        width: 30%;
+    }
+    #section1 .description {
+        padding-top: 50px;
+    }
+    main #section1{
+        background-image: url("img/hero.jpg");
+    }
+
+}
+#section2 h1{
+    font-size: 6em;
+    color: grey;
+    text-align: center;
+    letter-spacing: 3px;
+    text-shadow: 1px 0 10px;
+
+    
+}
+.parentBox{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;    
+}
+.parentBox .boxchild{
+    width: 22%;
+    margin: 10px;
+    flex: 1 1 200px;
+
+}
+.parentBox .boxchild img{
+    width: 220px;
+    display: block;
+    margin: 10px auto;
+}
+.parentBox .boxchild h3{
+    text-align: center;
+    color: #333E4D;
+    font-size: 30px;
+}
+.parentBox .boxchild p{
+    color: black;
+    text-align: center;
+    margin: 10px;
+    color: #264653;
+    font-weight: normal;
+}
+
+#section3 .parent{
+    background-color: #2C343F;
+    width: 80%;
+    height: 50vh;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+}
+#section3 .parent h1{
+    text-align: center;
+    color: #C0F0F8;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 2em;
+    margin-top: 30px;
+}
+#section3 .parent p{
+    text-align: center;
+    line-height: 1.6;
+    margin-top: 30px;
+}
+#section4{
+    height: 120vh;
+  
+}
+
+#section4 .parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+#section4 .parent .box01{
+    color: #CAF0F8;
+    background-color: #0E8684;
+    width: 30%;
+    height: 250px;
+    margin: 20px;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    
+}
+#section4 .parent .box01 img{
+    display: block;
+    margin: 10px auto;
+}
+#section4 .parent .box01 h3,p{
+    text-align: center;
+    font-weight: bolder;
+    margin: 20px;
+    font-size: 18px;
+}
+#section4 .parent .box01 p{
+    line-height: 1.6em;
+}
+
+#section4 .mother{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#section4 .mother .box001{
+    color: #CAF0F8;
+    background-color: #0E8684;
+    width: 63%;
+    height: 250px;
+    margin: 20px;
+    border-radius: 12px;
+    
+}
+#section4 .mother .box001 img{
+    display: block;
+    margin: 10px auto;
+}
+#section4 .mother .box001 h3,p{
+    text-align: center;
+    font-weight: bolder;
+    margin: 20px;
+    font-size: 18px;
+}
+#section4 .mother .box001 p{
+    line-height: 1.6em;
+}
+
+#section5 .parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#section5 .parent .box01{
+    /*width: 30%;*/
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+#section5 .parent .box01 p{
+    color: #333E4D;
+    text-align: center;
+    font-weight: normal;
+}
+#section5 .parent .box01 h1,h2{
+    text-align: center;
+}
+#section5 .parent .box01 h1{
+    font-size: 70px;
+    color: #FDD6BA;
+}
+#section5 .parent .box01 h2{
+    color: #333E4D;
+    font-size: 35px;
+}
+
+@media screen and (max-width:899px){
+    #section5 .box01{
+        flex-wrap: wrap;
+    }
+}

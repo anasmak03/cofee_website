@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main #aboutUs{
+    background-image: url(img/image-hero-whitecup.fde3b82b.jpg);
+    background-size: cover;
+    width: 70%;
+    display: block;
+    margin: 10px auto;
+    color: white;
+    height:300px;
+    border-radius: 12px;
+    margin-bottom: 90px;
+}
+main #aboutUs .description{
+  margin: 70px;
+  padding-left: 50px;
+  padding-top: 50px;
+  }
+  main #aboutUs .description h1{
+      padding-bottom: 40px;
+      font-size: 37px;
+      font-weight: lighter;
+  }
+  main #aboutUs .description p{
+      font-weight: normal;
+      font-size: 19px;
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.7em;
+  }
+
+  @media screen and (max-width:800px)
+  {
+  
+    main #aboutUs {
+          background-image: url('https://focused-panini-ea6dd0.netlify.app/static/media/image-hero-whitecup.531ce5f3.jpg');
+      }
+      main #aboutUs h1 {
+          text-align: center;
+          padding-left:0;
+      }
+  
+      main #aboutUs p {
+          text-align: center;
+          width:100%;
+          padding-left: 0;
+          margin:0;
+      }
+  }
+
+
+main .lastsection{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+main .lastsection .box1 img{
+    width: 400px;
+    border-radius: 12px;
+    margin-left: 200px;
+}
+
+.box1 h1 {
+    color: #333E4D;
+    font-size: 2.2em;
+    padding-bottom: 15px;
+    
+}
+
+
+.box1 p {
+    line-height: 2;
+    width: 80%;
+    color: #03071e;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: 'Source Sans 3', sans-serif;
+    padding-top: 30px;
+    
+    
+}
+.box1 {
+    flex: 1 1 400px;
+    margin:20px;
+}
+
+@media screen and (max-width:600px){
+   .lastsection .box1 img{
+        margin: 0 auto;
+        /*display: block;*/
+        margin-left: 0;
+        width: 60%;
+    }
+   
+}
